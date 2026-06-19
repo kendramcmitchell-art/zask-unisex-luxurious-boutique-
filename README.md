@@ -21,8 +21,8 @@ Visit our website to explore our latest collection and enjoy an exceptional shop
 
 ## Contact Us
 
-- Email: info@zaskboutique.com
-- Phone: (555) 123-4567
+- Email: timothyoladeji121@gmail.com
+- Phone: WhatsApp: +2347082951096
 - Follow us on social media for updates and exclusive offers
 
 ---
