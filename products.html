@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Zask Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ZASK</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="#cart" class="cart-icon">🛍️ Cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Products Page -->
+    <section class="gallery-container">
+        <h1 class="gallery-title">Our Complete Collection</h1>
+        
+        <p style="text-align: center; margin-bottom: 3rem; color: #666; font-size: 1.1rem;">
+            Upload your product photos to the <code>images/products/</code> folder. See UPLOAD_INSTRUCTIONS.md for details.
+        </p>
+
+        <div class="products-grid">
+            <!-- Replace these placeholder images with your actual product photos -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/product-1.jpg" alt="Premium Silk Shirt" onerror="this.src='https://via.placeholder.com/300x400?text=Silk+Shirt'">
+                </div>
+                <div class="product-info">
+                    <h3>Premium Silk Shirt</h3>
+                    <p class="price">$299</p>
+                    <p class="description">Luxurious Italian silk, perfect for any occasion</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/product-2.jpg" alt="Tailored Blazer" onerror="this.src='https://via.placeholder.com/300x400?text=Tailored+Blazer'">
+                </div>
+                <div class="product-info">
+                    <h3>Tailored Blazer</h3>
+                    <p class="price">$399</p>
+                    <p class="description">Impeccably crafted, timeless elegance</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/product-3.jpg" alt="Designer Trousers" onerror="this.src='https://via.placeholder.com/300x400?text=Designer+Trousers'">
+                </div>
+                <div class="product-info">
+                    <h3>Designer Trousers</h3>
+                    <p class="price">$249</p>
+                    <p class="description">Contemporary fit with premium fabric</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/products/product-4.jpg" alt="Luxury Accessory" onerror="this.src='https://via.placeholder.com/300x400?text=Luxury+Accessory'">
+                </div>
+                <div class="product-info">
+                    <h3>Luxury Accessory</h3>
+                    <p class="price">$149</p>
+                    <p class="description">Exquisite details, premium materials</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Zask Unisex Luxurious Boutique. All rights reserved.</p>
+        <p>Crafted with elegance and luxury</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
